@@ -1,6 +1,6 @@
 # Repro for a chrome bug
 
-https://bugs.chromium.org/p/chromium/issues/detail?id=1269602
+https://bugs.chromium.org/p/chromium/issues/detail?id=1308382
 
 ## Steps to reproduce:
 
