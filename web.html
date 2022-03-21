@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web.html</title>
+    </head>
+    <body>
+        <h1>Web</h1>
+        <div id="content"></div>
+        <script>
+            window.onload = () => {
+                fetch('http://localhost:7777/content')
+                .then((res) => res.json())
+                .then((data) =>{
+                    const content = document.getElementById('content');
+                    content.innerHTML = data.content;
+                });
+            };
+        </script>
+    </body>
+</html>
